@@ -4,6 +4,9 @@ VidWave is a modern, responsive video streaming web application that allows user
 
 ## Live Demo
 Check out the live application here: [https://vidwave.ccbp.tech](https://vidwave.ccbp.tech)
+Login Credentials
+Username:rahul
+Password:rahul@2021
 
 ## Features
 - **Trending Videos:** Explore the latest trending videos.
