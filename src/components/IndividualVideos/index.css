@@ -103,7 +103,7 @@
 }
 
 @media screen and (max-width: 600px) {
-  .display{
+  .display {
     display: none;
   }
   .VideosWrapperIndividual {
@@ -113,31 +113,31 @@
     margin-left: 0; /*for fixed navbar left*/
     margin-top: 42px; /*for fixed header top*/
   }
-.IndividualPublish {
-  font-size: 12px;
-  color: #64748b;
-}
-.IndividualUl {
-  display: flex;
-  list-style: none;
-  gap: 8px;
-}
-.NavbarIcons {
-  font-size: 14px;
-}
+  .IndividualPublish {
+    font-size: 12px;
+    color: #64748b;
+  }
+  .IndividualUl {
+    display: flex;
+    list-style: none;
+    gap: 8px;
+  }
+  .NavbarIcons {
+    font-size: 14px;
+  }
 
-.IndividualLi {
-  color: #64748b;
-  cursor: pointer;
-  display: flex;
-  font-size: 14px;
-  padding-right: 7px;
-}
-.IndividualLiSaved {
-  color: #4f46e5;
-  cursor: pointer;
-  display: flex;
-  font-size: 14px;
-  padding-right: 7px;
-}
+  .IndividualLi {
+    color: #64748b;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    padding-right: 7px;
+  }
+  .IndividualLiSaved {
+    color: #4f46e5;
+    cursor: pointer;
+    display: flex;
+    font-size: 14px;
+    padding-right: 7px;
+  }
 }

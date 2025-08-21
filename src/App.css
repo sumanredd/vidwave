@@ -1,7 +1,8 @@
 * {
   box-sizing: border-box;
 }
-html, body {
+html,
+body {
   touch-action: manipulation;
   -ms-touch-action: manipulation; /* old IE/Edge */
 }
@@ -17,4 +18,3 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
