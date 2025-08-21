@@ -1,0 +1,60 @@
+* {
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+.LinkStyleTrending {
+  text-decoration: none;
+  color: black;
+}
+
+.VideoListContainerTrending {
+  margin-bottom: 35px;
+  display: flex;
+}
+.ThumbnailImgTrendingSaved {
+  width: 270px;
+  height: 190px;
+}
+.flexRowTrending {
+  display: flex;
+}
+.contentContainerTrending {
+  margin-left: 15px;
+}
+
+.titleTrending {
+  font-size: 17px;
+}
+.channelNameTrending {
+  color: #64748b;
+  padding-top: 5px;
+}
+
+.viewCountTrending {
+  padding-right: 5px;
+  font-size: 15px;
+  color: #64748b;
+}
+.publishedAtTrending {
+  padding: 0;
+  font-size: 15px;
+  padding-left: 5px;
+  color: #64748b;
+}
+.dotTrending {
+  padding-right: 5px;
+  color: #64748b;
+}
+.viewCountTrending,
+.publishedAtTrending,
+.channelNameTrending,
+.titleTrending {
+  margin: 0;
+}
+
+.Dark_Mode_Trending .viewCount,
+.Dark_Mode_Trending .publishedAt,
+.Dark_Mode_Trending .channelName,
+.Dark_Mode_Trending .title {
+  color: white;
+}

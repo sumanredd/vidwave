@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+.HeaderContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  /* margin-top: 10px; */
+  background-color: white; /* Light mode background */
+  z-index: 1000;
+}
+.HeaderImg {
+  height: 28px;
+  width: 120px;
+  margin-left: 30px;
+}
+.profileImg {
+  height: 23px;
+  margin-right: 13px;
+}
+.HeaderBtn {
+  height: 24px;
+  width: 70px;
+  border: 1px solid #4f46e5;
+  background-color: transparent;
+  color: #4f46e5;
+  font-family: 'Roboto';
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 30px;
+}
+.HeaderBtn:hover {
+  background-color: #382fdf;
+  color: white;
+}
+.moonLogo {
+  padding-right: 10px;
+  cursor: pointer;
+  font-size: 30px;
+}
+
+/* .Light_Mode {
+  background-color: #ffffff;
+  color: #000000;
+} */
+
+.Dark_Mode {
+  background-color: #313131;
+  color: #ffffff;
+}
+
+.Dark_Mode .HeaderBtn {
+  border: 1px solid #ffffff;
+  color: #ffffff;
+}
+
+.Dark_Mode .HeaderBtn:hover {
+  background-color: #ffffff;
+  color: #313131;
+}

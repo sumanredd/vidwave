@@ -1,0 +1,86 @@
+.NavbarContainer {
+  width: 240px;
+  background-color: white;
+  min-height: calc(100vh - 59px);
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 59px;
+  /* margin-top: 59px; for fixed header top */
+}
+
+.NavbarUl {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.NavbarLi {
+  font-family: 'Roboto';
+  font-size: 13px;
+  padding: 10px;
+  padding-left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.NavbarLi:hover {
+  background-color: #e2e8f0;
+}
+
+.NavbarIcons {
+  font-size: 17px;
+}
+
+.NavbarLi:hover .NavbarIcons {
+  color: red;
+}
+
+.contactUsSection {
+  margin-top: auto;
+  padding: 15px 20px;
+}
+.contactUsHeading {
+  font-size: 19px;
+  font-family: 'Roboto';
+}
+.contactUsImg {
+  width: 28px;
+  margin-right: 6px;
+}
+
+.Dark_Mode_Navbar {
+  background-color: #313131;
+  color: #ffffff;
+  /* height: calc(100vh - 59px); */
+}
+.Dark_Mode_Navbar .NavbarLi:hover {
+  background-color: #424242;
+}
+
+@media screen and (max-width: 600px) {
+  .NavbarContainer {
+    width: 150px;
+    background-color: white;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 59px;
+    /* margin-top: 59px; for fixed header top */
+  }
+  .Dark_Mode_Navbar {
+    background-color: #313131;
+    color: #ffffff;
+  }
+  .NavbarUl {
+    flex: 1;
+  }
+  .contactUsSection {
+    margin-top: auto;
+    padding: 15px 20px 30px;
+  }
+}

@@ -1,0 +1,22 @@
+.VideoListContainerGaming {
+  margin-bottom: 35px;
+}
+.ThumbnailImgGaming {
+  width: 220px;
+  height: 340px;
+}
+.titleGaming {
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+
+.viewsCountText {
+  font-size: 13px;
+  color: #64748b;
+  padding-right: 5px;
+}
+
+.watching {
+  font-size: 12px;
+  color: #64748b;
+}

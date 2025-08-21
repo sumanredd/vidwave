@@ -1,0 +1,12 @@
+.notFoundContainer {
+  display: flex;
+  margin-top: 15px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+}
+.notFound {
+  height: 250px;
+  width: 320px;
+}

@@ -1,0 +1,10 @@
+.HomeFlex {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.VideosWrapper {
+  flex: 1;
+  /* padding: 5px 10px; */
+  box-sizing: border-box;
+}

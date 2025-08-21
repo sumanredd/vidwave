@@ -1,0 +1,143 @@
+* {
+  font-family: 'Roboto';
+}
+.VideosWrapperIndividual {
+  flex: 1;
+  /* padding: 5px 10px; */
+  box-sizing: border-box;
+  margin-left: 240px; /*for fixed navbar left*/
+  margin-top: 42px; /*for fixed header top*/
+}
+.VideosContainerIndividual {
+  background-color: #f1f5f9;
+  min-height: 100vh;
+  width: 100%;
+  padding: 40px 20px;
+}
+.IndividualFlex {
+  display: flex;
+  align-items: flex-start;
+  /* margin-top: 15px; */
+}
+
+.IndividualThumbnailUrl {
+  height: 700px;
+  width: 90%;
+}
+.youtubeStyle {
+  height: 500px;
+}
+
+.IndividualTitle {
+  font-size: 20px;
+}
+.IndividualViews {
+  font-size: 15px;
+  color: #64748b;
+  padding-right: 7px;
+}
+.IndividualPublish {
+  font-size: 15px;
+  color: #64748b;
+}
+.IndividualUl {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+.NavbarIcons {
+  font-size: 18px;
+}
+
+.IndividualLi {
+  color: #64748b;
+  cursor: pointer;
+  display: flex;
+  font-size: 17px;
+  padding-right: 10px;
+}
+.IndividualLiSaved {
+  color: #4f46e5;
+  cursor: pointer;
+  display: flex;
+  font-size: 17px;
+  padding-right: 10px;
+}
+
+.dot {
+  padding-right: 5px;
+  color: #64748b;
+}
+.IndividualHr {
+  width: 100%;
+}
+.IndividualProfileImg {
+  height: 55px;
+  width: 55px;
+}
+.IndividualsubscriberCount {
+  font-size: 14px;
+  color: #64748b;
+}
+.IndividualchannelName {
+  font-size: 14px;
+}
+.Individualdescription {
+  font-size: 15px;
+  padding-bottom: 20px;
+}
+.loader-containerIndividual {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.Dark_Mode_Individual {
+  background-color: #000000;
+  color: #ffffff;
+}
+.Dark_Mode_Individual .loader-containerIndividual {
+  background-color: #000000;
+}
+
+@media screen and (max-width: 600px) {
+  .display{
+    display: none;
+  }
+  .VideosWrapperIndividual {
+    flex: 1;
+    /* padding: 5px 10px; */
+    box-sizing: border-box;
+    margin-left: 0; /*for fixed navbar left*/
+    margin-top: 42px; /*for fixed header top*/
+  }
+.IndividualPublish {
+  font-size: 12px;
+  color: #64748b;
+}
+.IndividualUl {
+  display: flex;
+  list-style: none;
+  gap: 8px;
+}
+.NavbarIcons {
+  font-size: 14px;
+}
+
+.IndividualLi {
+  color: #64748b;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  padding-right: 7px;
+}
+.IndividualLiSaved {
+  color: #4f46e5;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  padding-right: 7px;
+}
+}
